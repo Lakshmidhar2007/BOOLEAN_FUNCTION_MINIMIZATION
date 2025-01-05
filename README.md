@@ -33,23 +33,24 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: LAKSHMIDHAR N  RegisterNumber: 24900046 */
+### Developed by: LAKSHMIDHAR N  
+### RegisterNumber: 24900046
 
-module exp2(a,b,c,d,f1,f2,w,x,y,z);
-
-input a,b,c,d,w,x,y,z;
-
-output f1;
-
-output f2;
-
-assign f1 =((~b & ~d)|(~a&b&d)|(a&b&~c));
-
-assign f2 =((~y&z)|(x&y)|(w&y));
-
-endmodule
+      module exp2(a,b,c,d,f1,f2,w,x,y,z);
+      
+      input a,b,c,d,w,x,y,z;
+      
+      output f1;
+      
+      output f2;
+      
+      assign f1 =((~b & ~d)|(~a&b&d)|(a&b&~c));
+      
+      assign f2 =((~y&z)|(x&y)|(w&y));
+      
+      endmodule
 
 **RTL realization Output:**
 ![exp2](https://github.com/user-attachments/assets/d59990f6-9b65-48a7-ae80-db5b9e77c257)
